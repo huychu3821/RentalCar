@@ -1,0 +1,10 @@
+<!DOCTYPE html >
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<p>Congratulations! </p>
+<p>Your car <span th:text="${carName}"></span> has been booked at
+    <span th:text="${bookingDate}"></span>. Please go to your <a th:href="${walletLink}">wallet</a> to check if the deposit
+    has been paid and go to your car's <a th:href="${carDetailLink}">details page</a> to confirm the deposit.</p>
+<p>Thank you!</p>
+</body>
+</html>

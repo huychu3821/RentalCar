@@ -1,0 +1,8 @@
+<!DOCTYPE html >
+<html xmlns:th="http://www.thymeleaf.org">
+    <body>
+        <p>We have just received a password reset request for <span th:text="${email}"></span></p>
+        <p>Please click <a th:href="${link}"> here</a> to reset your password</p>
+        <p>For your security, the link will expire in 24 hours or immediately after you reset your password</p>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+.navbar {
+    --bs-navbar-brand-color: white !important;
+    --bs-navbar-color: white !important;
+    border-bottom: 1px solid white;
+}
+
+.nav-link::before {
+    border-left: 2px white solid;
+    margin-right: 10px;
+}
+
+.nav-link:last-child::before {
+    content: "";
+}

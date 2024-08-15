@@ -1,0 +1,37 @@
+.review-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user-icon {
+    margin-right: 10px;
+  }
+  
+  .rating {
+    margin-left: auto; 
+  }
+  
+  .review-date {
+    font-size: 0.8em;
+    color: #777; 
+  }
+  
+  .product-info {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .label {
+    font-weight: bold;
+  }
+  ul, ol {
+    list-style-type: none;
+  }
